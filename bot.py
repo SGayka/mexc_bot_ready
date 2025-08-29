@@ -21,8 +21,8 @@ import io
 import mplfinance as mpf
 
 # === Telegram дані (можна через ENV або залишити жорстко) ===
-BOT_TOKEN = os.getenv("BOT_TOKEN", "7869931819:AAH2gApsX-tdmQuHkYp5VHIgss1gPbL_1eA")
-CHAT_ID = os.getenv("CHAT_ID", "-1002463181604")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+CHAT_ID = os.getenv("CHAT_ID")
 
 # --- API ---
 MEXC_BASE_URL = "https://api.mexc.com"
