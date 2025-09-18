@@ -1,8 +1,1 @@
-websocket-client
-requests
-pandas
-numpy
-mplfinance
-Pillow
-scipy
-ta
+
